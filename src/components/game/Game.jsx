@@ -1,7 +1,4 @@
 import React, { useEffect, useRef, useState } from 'react';
-// import Player from '../Player';
-// import Platform from '../Platform';
-// import Enemy from '../Enemy';
 import './Game.css';
 
 const Game = () => {
@@ -10,9 +7,6 @@ const Game = () => {
     return (
         <div className='game-container'>
             {/* Render game elements here */}
-            {/* <Player />
-            <Platform />
-            <Enemy /> */}
         </div>
     );
 };
